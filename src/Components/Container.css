@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+.container__xs {
+  flex-basis: 300px;
+}
+.container__sm {
+  flex-basis: 600px;
+}
+.container__md {
+  flex-basis: 900px;
+}
+.container__lg {
+  flex-basis: 1200px;
+}
