@@ -67,7 +67,7 @@ function App() {
             gap: '0.5em',
           }}
         >
-          <h1 style={{ borderBottom: '1px solid', borderColor: 'var(--color-primary)' }}>Project &quot;Dev Mode&quot;</h1>
+          <h1 style={{ borderBottom: '1px solid', borderColor: 'var(--color-primary)' }}>Club &quot;Dev Mode&quot;</h1>
           {loading && <p>Loading...</p>}
           {!loading && projects.length === 0 && <p>No projects found.</p>}
           {!loading && projects.length > 0 && (
