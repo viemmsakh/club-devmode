@@ -38,8 +38,6 @@ function App() {
           gap: '1rem',
           flexWrap: 'wrap',
           maxWidth: '1500px',
-          marginTop: '2rem',
-          marginBottom: '5rem',
         }}
       >
         {/* Main Container */}
