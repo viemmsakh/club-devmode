@@ -17,7 +17,7 @@ Visit [devmode.club](https://devmode.club)
 npm i .
 
 # Start Dev Server
-npm run start
+npm run dev
 
 # Build for Production
 npm run build
