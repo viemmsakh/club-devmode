@@ -51,8 +51,16 @@ function App() {
             gap: '1rem',
           }}
         >
-          <img src='./no.png' alt='No Bugs Bunny Meme' style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }} />
-          <img src='./devmode.jpeg' alt='Dev Mode Cease and Desist' style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }} />
+          <img
+            src="./no.png"
+            alt="No Bugs Bunny Meme"
+            style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}
+          />
+          <img
+            src="./devmode.jpeg"
+            alt="Dev Mode Cease and Desist"
+            style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}
+          />
         </Container>
         {/* Sidebar */}
         <Container
@@ -67,7 +75,35 @@ function App() {
             gap: '0.5em',
           }}
         >
-          <h1 style={{ borderBottom: '1px solid', borderColor: 'var(--color-primary)' }}>Club &quot;Dev Mode&quot;</h1>
+          <h1
+            style={{
+              borderBottom: '1px solid',
+              borderColor: 'var(--color-primary)',
+            }}
+          >devmode.club ™©®</h1>
+          <i>
+            A collection of dev mode projects, brought together to protest
+            Figma&apos;s &quot;Dev Mode&quot;{' '}
+            <a href="https://tsdr.uspto.gov/#caseNumber=98045640&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
+              target="_blank"
+              alt="Figma Dev Mode Trademark"
+              style={{
+                color: 'var(--color-primary)',
+                textDecoration: 'underline',
+              }}
+            >
+              trademark
+            </a>
+            .
+          </i>
+          <h1
+            style={{
+              borderBottom: '1px solid',
+              borderColor: 'var(--color-primary)',
+            }}
+          >
+            Club &quot;Dev Mode&quot;
+          </h1>
           {loading && <p>Loading...</p>}
           {!loading && projects.length === 0 && <p>No projects found.</p>}
           {!loading && projects.length > 0 && (
@@ -94,9 +130,28 @@ function App() {
         >
           <i>
             To add project to sidebar, please contact me at{' '}
-            <a href='mailto:contact@devmode.club' target='_blank' alt='Email' style={{ color: 'var(--color-primary)', textDecoration: 'underline' }}>contact@devmode.club</a>
+            <a
+              href="mailto:contact@devmode.club"
+              target="_blank"
+              alt="Email"
+              style={{
+                color: 'var(--color-primary)',
+                textDecoration: 'underline',
+              }}
+            >
+              contact@devmode.club
+            </a>
           </i>
-          <div><a href='https://github.com/viemmsakh/club-devmode' target='_blank' alt='GitHub Source' style={{ color: 'var(--color-primary)' }}>Page Source</a> </div>
+          <div>
+            <a
+              href="https://github.com/viemmsakh/club-devmode"
+              target="_blank"
+              alt="GitHub Source"
+              style={{ color: 'var(--color-primary)' }}
+            >
+              Page Source
+            </a>{' '}
+          </div>
         </Container>
       </Container>
     </>
